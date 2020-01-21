@@ -3,6 +3,7 @@
 #include <string>
 #include <stdio.h>
 #include <string.h>
+#include <unistd.h>
 
 const std::string	usbmonDev =						"/sys/kernel/debug/usb/usbmon/0u";
 const std::string	usbmonDevBinary =				"/dev/usbmon0";
