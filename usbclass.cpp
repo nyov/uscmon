@@ -79,6 +79,7 @@ void UsbClass::dataFormatEvent(char parity, int dataBits, int stopBits)
 		break;
 	case 15:
 		printf(" 1.5 stop bits\n\r");
+		break;
 	default:
 		printf(" 1 stop bits\n\r");
 		break;
